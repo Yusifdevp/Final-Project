@@ -1,0 +1,761 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header{
+    width: 100%;
+    height: 17vh;
+    background-image: url('../img/heder-banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+nav{
+ width: 100%;
+ height: 10vh;
+ background-color: #0D0D0D;
+ display: flex;
+}
+
+.ul1{
+    width: 70%;
+    display: flex;
+color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-right: 40px;
+}
+
+.logo{
+    width: 22%;
+    height: 100%;
+    display: flex;
+   
+}
+
+.img1{
+    padding:10px;
+    margin-left: 10px;
+}
+
+
+
+.mainav{
+    display: flex;
+    width: 55%;
+}
+
+ li{
+    list-style-type: none;
+    position: relative;
+}
+
+
+
+ li::after{
+content: "";
+position:absolute;
+width: 0;
+height: 1px;
+left: 0;
+bottom:-4px;
+background-color: white;
+transition: all .3s ease;
+}
+
+
+
+ li:hover::after{
+    width: 100%;
+}
+
+.ul2 li{
+     color: white;
+     list-style-type: none;
+    
+}
+
+.ul2{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ulandicon{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: end;
+position: relative;
+left: 130px;
+}
+
+
+
+
+.div0{
+width: 20px;
+height: 20px;
+    text-align: center;
+    background-color: #3E3E3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-left: -20px;
+    font-weight: 400;
+    color: white;
+}
+
+.main{
+    display: flex;
+}
+
+li{
+    display: flex;
+}
+
+
+
+ul li{
+    cursor: pointer;
+}
+
+
+ i{
+    color: white;
+    margin-left: 40px;
+}
+
+
+.orangeprt{
+    width: 150px;
+    height: 100%;
+    background-color:#FE5900;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+nav{
+    position: absolute;
+}
+
+
+
+  
+.hero1{
+    width: 100%;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+   background-image: url('../img/Ekran\ şəkli\ 2024-06-16\ 161609.png');
+    flex-direction: column;
+
+}
+
+
+.maintxtdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img10{
+    width: 90%;
+    height: 600px;
+  margin-top: 114px;
+  margin-left: 50px;
+    
+}
+
+.txt{
+    width: 40%;
+    height: 100px;
+    display: flex;
+  text-align: start;
+    flex-direction: column;
+
+}
+
+
+
+h4{
+    font-family: "Yantramanav", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #A9A9A9;
+  letter-spacing: 4px;
+}
+
+.h1g{
+    font-size: 80px;
+}
+
+
+
+
+
+
+.p1{
+    font-family: "Yantramanav", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #A9A9A9;
+  font-size: 23px;
+}
+
+
+
+.btn1{
+    padding: 14px 50px;
+    background-color: #000000;
+    color: white;
+    transition: all .3s ease;
+outline: none;
+    font-size: large;
+    border: none;
+}
+
+
+.btn2{
+    padding: 13px 50px;
+    background-color: transparent;
+      border: 1px  solid #676767;
+margin-left: 10px;
+    font-size: large;
+    transition: all .3s ease;
+
+
+}
+
+
+
+.btn1:hover{
+    background-color: #FE5900;
+    padding: 15px 50px;
+}
+
+
+.btn2:hover{
+    color: white;
+    background-color: #FE5900;
+    outline: none;
+    border: none;
+    padding: 14px 50px;
+}
+
+
+.matches{
+    width: 100%;
+    height: 85vh;
+    background-image: url('../img/Ekran\ şəkli\ 2024-06-16\ 162144.png');
+position: absolute;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 200%;
+}
+
+
+
+.round{
+    width: 100%;
+    height: 70vh;
+
+display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.txtround1{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+}
+
+.txtround2{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+        justify-content: center;
+    
+}
+
+
+
+.kask{
+    width: 35%;
+    height: 55%;
+
+}
+
+
+.pround1{
+color: rgb(156, 156, 156);
+letter-spacing: 4px;
+font-size: 12px;
+font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  transition: all .3s ease;
+}
+
+.pround2{
+    color: black;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+transition: all .3s ease;
+}
+
+
+.time{
+
+    display: flex;
+    align-items: center;
+}
+
+
+.pround3{
+    color: black;
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+}
+
+
+.round{
+    background-image: url('../img/PLAYERS\ OF\ THE\ BEST.png');
+    background-position: center;
+    background-size: 200%;
+}
+
+.pround1:hover{
+    color: #FE5900;
+}
+
+.pround2:hover{
+    color: #FE5900;
+}
+
+
+.about{
+    width: 100%;
+    height: 35vh;
+    background-color: #F7F7F7;
+}
+
+
+.pabout1{
+    color: rgb(156, 156, 156);
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:500;
+  
+    }
+    
+    .pabout2{
+        color: black;
+        font-size: 50px;
+        font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:600;
+
+    }
+    
+
+    .pdiv{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100%;
+width: 100%;
+}
+    
+
+
+.imgs{
+    width: 100%;
+    height: 70vh;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+
+
+
+.webimg{
+    width: 100%;
+    height: 100%;
+}
+
+
+.divimg{
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+.divimg::after{
+    content: "";
+    position:absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    bottom:0;
+    background-color: #FE5900;
+    transition: all .5s ease;
+
+    }
+    
+    
+    
+    .divimg:hover::after{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .pabout3{
+        color: rgb(156, 156, 156);
+
+        font-size: 12px;
+        font-family: "Oswald", sans-serif;
+          font-optical-sizing: auto;
+          font-weight:500;
+      
+        }
+        
+        .pabout4{
+            color: black;
+            font-size: 30px;
+            font-family: "Oswald", sans-serif;
+          font-optical-sizing: auto;
+          font-weight:600;
+    
+        }
+
+        .pabout5{
+            color: rgb(156, 156, 156);
+    
+            font-size: 15px;
+            font-family: "Oswald", sans-serif;
+              font-optical-sizing: auto;
+              font-weight:500;
+          
+            }
+
+
+          
+        
+        
+        .pabout6{
+            color: black;
+            font-size: 20px;
+            font-family: "Oswald", sans-serif;
+          font-optical-sizing: auto;
+          font-weight:600;
+    
+        }
+        
+    
+
+        .newimg{
+            width: 100%;
+            height: 50%;
+            
+        
+        }
+    
+
+
+        .new{
+            display: flex;
+            align-items: flex-start;
+      margin-left: 60px;
+      margin-top: 50px;
+            flex-direction: column;
+            width: 25%;
+            height: 100%;
+       
+        }
+
+
+        .mainnews{
+            justify-content: center;
+            display: flex;
+        align-items: center;
+        width: 100%;
+      
+
+      flex-wrap: wrap;
+        }
+
+
+        .thenews{
+            width: 100%;
+            height: 250vh;
+            
+        }
+
+
+
+
+
+        .hero5{
+            width: 100%;
+            height: 80vh;
+       background-image: url('../img/io.png');
+       background-position: center;
+       background-size: cover;
+        }
+
+
+
+        .txtnew{
+            width: 100%;
+         
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 250px;
+            text-align: center;
+        }
+
+
+
+        .pnew{
+            font-size: 50px;
+        }
+
+
+        .hnew{
+            letter-spacing: 4px;
+            color: #8C8C8C;
+            font-weight: 400;
+
+        }
+
+
+        .txtsdiv{
+           
+            height: 100%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        
+        
+        }
+
+
+      
+        .buttonhero{
+            padding: 13px 40px;
+            background-color: transparent;
+            color: white;
+            outline: none;
+            border-color: white;
+            position: relative;
+        }
+
+
+  
+
+        
+        .buttonhero::after{
+            content: "";
+            position:absolute;
+            width: 0;
+            height: 100%;
+            left: 0;
+            bottom:0;
+            background-color: #FE5900;
+            transition: all .5s ease;
+        
+            }
+            
+            
+            
+           .buttonhero:hover::after{
+                width: 100%;
+            }
+
+            .buttonhero:hover{
+                color: white;
+            }
+
+
+
+            .hero6{
+               background-color: #F7F7F7;
+                display: flex;
+       
+            align-items: center;
+            justify-content: center;
+            }
+
+
+            .imghero6{
+
+padding: 50px;
+            }
+
+
+
+            .buttonhero1{
+                padding: 13px 40px;
+                background-color: transparent;
+                color: black;
+                outline: none;
+                border-color: black;
+                position: relative;
+                
+            }
+    
+    
+      
+    
+            
+            .buttonhero1::after{
+                content: "";
+                position:absolute;
+                width: 0;
+                height: 100%;
+                left: 0;
+                bottom:0;
+                background-color: #FE5900;
+                transition: all .5s ease;
+            
+                }
+                
+                
+                
+               .buttonhero1:hover::after{
+                    width: 100%;
+                }
+    
+                .buttonhero1:hover{
+                    color: white;
+                }
+
+
+
+
+                .logosct{
+                    width: 100%;
+                    height: 100vh;
+                 
+                }
+
+
+
+                .logotxtdiv1{
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    height:30vh;
+                }
+
+
+
+                .logosp{
+                    letter-spacing: 4px;
+                    color: #8C8C8C;
+                    font-weight: 400;
+                }
+
+
+                .logosh1{
+                    font-size: 40px;
+                }
+
+
+
+                .allimglogo{
+                  
+                    display: flex;
+                    justify-content:space-around;
+
+                }
+
+                .allimglogo1{
+                    display: flex;
+                    justify-content: space-around;
+               
+                }
+
+
+                
+                .logop{
+                    letter-spacing: 4px;
+                    color: #8C8C8C;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+
+                .logop1{
+                    font-size: 30px;
+                    text-align: center;
+                }
